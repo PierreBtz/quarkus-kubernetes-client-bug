@@ -1,6 +1,9 @@
 # quarkus-kubernetes-client-bug Project
 
-This is a reproduction for https://github.com/quarkusio/quarkus/issues/29532
+This is a reproduction for https://github.com/quarkusio/quarkus/issues/30336
+It will inject a `KubernetesClient` with the default configuration, load some Kubernetes resources and try to create them.
+
+This was also a reproduction for https://github.com/quarkusio/quarkus/issues/29532
 It will inject a `KubernetesClient` with the default configuration and try to load some Kubernetes resources.
 
 Steps:
